@@ -822,7 +822,8 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: "";
-    background: rgba(53, 41, 97, 0.8);
+    background: #114DDD;
+    border-radius: 5px;
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -872,6 +873,31 @@ h1, h2, h3, h4, h5,
 
 .nonloop-block-13 .owl-nav {
   display: none; }
+
+.social-footer-links {
+  text-align: center !imporant;
+  display: inline-block !imporant;
+}
+
+.social-footer-links li {
+  text-align: center !imporant;
+  display: inline-block !imporant;
+}
+
+.social-footer-links ul {
+  text-align: center !imporant;
+  display: inline-block !imporant;
+}
+
+.social-footer-links a {
+  color: black !imporant;
+  display: inline-block !imporant;
+}
+
+.social-footer-links a:hover {
+  color: black !imporant;
+  display: inline-block !imporant;
+}
 
 .nonloop-block-13 .owl-dots {
   margin-top: 30px;
