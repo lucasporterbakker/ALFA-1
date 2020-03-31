@@ -698,7 +698,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 70%;
-    background: #0748E5;
+    /*background: #0748E5;*/
     /*background: #2c2c2c;*/
     border-bottom-right-radius: 200px; }
     @media (max-width: 991.98px) {
@@ -891,13 +891,15 @@ h1, h2, h3, h4, h5,
 }
 
 .social-footer-links a {
-  color: black !imporant;
+  color: RGBA(246, 246, 246, 0.6);
   display: inline-block !imporant;
 }
 
+
 .social-footer-links a:hover {
-  color: black !imporant;
+
   display: inline-block !imporant;
+  color: RGBA(246, 246, 246, 1.00);
 }
 
 .nonloop-block-13 .owl-dots {
