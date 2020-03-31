@@ -1079,7 +1079,9 @@ h1, h2, h3, h4, h5,
     display: inline-block;
     padding: 28px 30px;
     position: relative;
-    background: #dc3545;
+    color: #114DDD;
+    background: #fff;
+    border: #114DDD;
     float: left; }
     .custom-owl-carousel .owl-custom-direction a:first-child {
       border-top-left-radius: 4px;
