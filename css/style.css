@@ -688,8 +688,41 @@ h1, h2, h3, h4, h5,
   background: linear-gradient(135deg, #8186d5 0%, #494ca2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8186d5', endColorstr='#494ca2', GradientType=1 ); }
 
+
+
 .intro-section {
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../images/banner_1.jpg");
+  background-size: cover;
   position: relative; }
+
+  @media (max-width: 991.98px) {
+    .intro-section:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background-image: none;
+    background: #0748E5; }
+  }
+
+  @media (max-width: 991.98px) {
+    .intro-section {
+    background: #fff; }
+  }
+
+  @media (max-width: 991.98px) {
+    .intro-section, .intro-section .container .row {
+    height: 60vh;
+    min-height: 500px !important; }
+  }
+
+
+/*  @media (min-width: 768px) {
+    .intro-section {
+    background: #0748E5; }
+  }*/
+
+
   .intro-section, .intro-section .container .row {
     height: 100vh;
     min-height: 1200px; }
@@ -698,7 +731,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 70%;
-    background: #0748E5;
+    /*background: #0748E5;*/
     /*background: #2c2c2c;*/
     border-bottom-right-radius: 200px; }
     @media (max-width: 991.98px) {
